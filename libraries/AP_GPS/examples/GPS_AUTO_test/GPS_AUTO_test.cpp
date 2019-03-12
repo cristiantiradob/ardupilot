@@ -33,6 +33,11 @@
 void setup();
 void loop();
 
+/*
+	Provides access to all hardware specific functions,
+	including things like printing messages to the console,
+	sleeping and talking to I2C and SPI buses.
+*/
 const AP_HAL::HAL& hal = AP_HAL::get_HAL();
 
 static AP_BoardConfig board_config;
